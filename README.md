@@ -35,7 +35,7 @@ After cloning, run the following command :
 ```bash
 cd form-node
 export PORT=8080
-mom install
+npm install
 npm start
 ```
 
