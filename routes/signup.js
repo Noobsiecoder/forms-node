@@ -34,7 +34,7 @@ router
      * If { true }, renders the "dashboard" page
      * Else it sends a custom error
      */
-    const userDoesExists = await firebaseTest.CheckUserExists(
+    const userDoesExists = await firebaseTest.checkUserExists(
       req.body.email,
       req.body.password
     );

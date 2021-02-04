@@ -27,7 +27,7 @@ const checkUserData = async (emailId, password) => {
 };
 
 // Function to check if user credentials from firebase database and then to add user data into database
-const CheckUserExists = async (emailId, password) => {
+const checkUserExists = async (emailId, password) => {
   let user;
   let usersRef = ref.child(emailId.replace(/[.]/g, ""));
   await usersRef.once("value", (snapshot) => {
@@ -52,5 +52,5 @@ module.exports = {
   addUserData,
   deleteUserData,
   checkUserData,
-  CheckUserExists,
+  checkUserExists,
 };
