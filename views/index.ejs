@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" class="relative min-h-screen">
+
+<head>
+    <%- include("./header/header"); %>
+    <% if (page === "signup") { %>
+    <title>Create New Account!</title>
+    <% } else if (page === "signin") { %>
+    <title>Welcome Back!</title>
+    <% } else { %>
+    <title>Dashboard</title>
+    <% } %>
+</head>
+
+<body class="bg-gradient-to-r from-red-500 to-red-300">
+    <% if (page === "signup") { %>
+    <%- include ("./pages/signup"); %>
+    <% } else if (page === "signin") { %>
+    <%- include("./pages/signin"); %>
+    <% } else { %>
+    <%- include("./pages/dashboard"); %>
+    <% } %>
+</body>
+
+</html>
