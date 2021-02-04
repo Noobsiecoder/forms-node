@@ -1,4 +1,4 @@
-// Modules which contains senstive firebase data which is stored under "modules" file
+// Modules which contains sensitive firebase data which is stored under "modules" file
 const admin = require("./firebase/modules");
 
 let db = admin.database(); // Connecting Firebase database
