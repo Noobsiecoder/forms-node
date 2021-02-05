@@ -66,6 +66,9 @@ npm start
 - [x] _Login/ Logout_ system using **Firebase**
 - [ ] _Google OAuth_ using **Firebase**
 - [ ] Enabling _Remember me_ local storage
+- [ ] Encrypt _Email-ID_ and _Password_
+- [ ] **Refactor code** and check for _bugs_
+- [ ] Deploy app
 
 # 📕 Resource
 
