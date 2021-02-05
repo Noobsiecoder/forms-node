@@ -64,6 +64,7 @@ npm start
 - [x] _Creating new account_ using **Firebase** and storing data
 - [x] Handling _sessions_
 - [x] _Login/ Logout_ system using **Firebase**
+- [ ] Adding _profile picture_ for users.
 - [ ] _Google OAuth_ using **Firebase**
 - [ ] Enabling _Remember me_ local storage
 - [ ] Encrypt _Email-ID_ and _Password_
